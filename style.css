@@ -1,0 +1,164 @@
+
+body h1{
+	font-size: 3rem;
+
+}
+body{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	color: #6c757d;
+}
+    
+
+.experience{
+	position: relative;
+	display: none;
+
+    top: 200px;
+    left: 200px;
+    position: relative;
+}
+.nav-link{
+	display: block;
+	color: #bd5d38;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-nav{
+	flex-direction: column!important;
+}
+#logo{
+	border-radius: 50%;
+	height: 200px;
+	width: 150px;
+	    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
+.logo-text{
+	display: none;
+}
+
+.nav-link{
+	color: #fff;
+	font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+.sub-heading{
+	text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+
+
+@media only screen and (min-width: 1024px) {
+					body{
+		
+		padding-left: 17rem;
+
+						}
+					#sideNav{
+
+							position: fixed;
+	
+							top: 0;
+    						left: 0;
+						    display: flex;
+						    flex-direction: column;
+						    text-align: center;
+						    width: 17rem;
+    
+   							 height: 100vh;
+
+	    
+							}
+					.fixed-top{
+							right: 0;
+								}
+					.about{
+						padding: 5rem 3rem;
+					}
+					.resume-section{
+						padding: 5rem 3rem;
+					}
+					.education-section{
+						padding: 5rem 3rem;
+					}
+					.skills-section{
+						padding: 5rem 3rem;
+					}
+					.interests-section{
+						padding: 5rem 3rem;
+
+					}
+					.awards-section{
+						padding: 5rem 3rem;
+					}
+
+}
+
+
+
+
+h1{
+	line-height: 1;
+	text-transform: uppercase;
+	font-size: 6rem;
+	color:#343a40;
+	font-family: "Saira Extra Condensed","Sans-Serif";
+}
+@media only screen and (max-width: 992px)
+{
+					#sideNav{			z-index: 1030;
+										width: auto;
+										
+							}
+
+					#logo{
+									display: none;
+							}
+					.logo-text{
+									display: block;
+								}
+					body{
+							display: block;
+						}
+						.pt-70{
+							padding-top: 70px;
+						}
+						.marginB-5{
+							margin-bottom: 5px;
+						}
+
+}
+
+
+.bg-color{
+	background-color: #bd5d38 !important;
+	
+
+}
+.content{
+	
+	padding: 70px 30px;
+	position: relative;
+}
+ 
+ .brown-color{
+ 	color: #bd5d38;
+ }
+
+https://startbootstrap.github.io/startbootstrap-resume/
+.lead{
+	font-size: 1.15rem;
+    font-weight: 500 !important;
+}
+.mr-10{
+	margin-right: 10px;
+}
+#list{
+	list-style: none;
+	padding: 0;
+	margin-left: auto;
+}
+.mr-5
