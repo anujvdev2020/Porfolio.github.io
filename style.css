@@ -6,9 +6,12 @@ body h1{
 body{
 	font-family: 'Saira Extra Condensed', sans-serif;
 	color: #6c757d;
+	line-height: 1.5;
 }
     
-
+p{
+	color:#6c757d;
+}
 .experience{
 	position: relative;
 	display: none;
@@ -20,6 +23,7 @@ body{
 .nav-link{
 	display: block;
 	color: #bd5d38;
+	font-weight: 700;
     text-decoration: none;
     background-color: transparent;
 }
@@ -39,7 +43,7 @@ body{
 .nav-link{
 	color: #fff;
 	font-weight: 800;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.08rem;
     text-transform: uppercase;
 }
 .sub-heading{
@@ -161,4 +165,12 @@ https://startbootstrap.github.io/startbootstrap-resume/
 	padding: 0;
 	margin-left: auto;
 }
-.mr-5
+.sub-heading{
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #6c757d;
+    letter-spacing: 0.05rem;
+
+}
