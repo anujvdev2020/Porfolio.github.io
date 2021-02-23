@@ -98,6 +98,9 @@ p{
 					.awards-section{
 						padding: 5rem 3rem;
 					}
+					.projects-section{
+						padding: 5rem 3rem;
+					}
 
 }
 
@@ -133,6 +136,7 @@ h1{
 						.marginB-5{
 							margin-bottom: 5px;
 						}
+	
 
 }
 
